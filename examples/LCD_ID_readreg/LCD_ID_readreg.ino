@@ -55,6 +55,7 @@ void setup()
     readReg(0xD0, 3, "Power Control");
     readReg(0xD2, 5, "NVM Read");
     readReg(0xD3, 4, "ILI9341, ILI9488");
+    readReg(0xD4, 4, "Novatek ID");
     readReg(0xDA, 2, "RDID1");
     readReg(0xDB, 2, "RDID2");
     readReg(0xDC, 2, "RDID3");
