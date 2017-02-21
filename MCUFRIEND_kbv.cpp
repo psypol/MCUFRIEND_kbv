@@ -1247,7 +1247,7 @@ case 0x4532:    // thanks Leodino
 #endif
 
     case 0x5310:
-        _lcd_capable = AUTO_READINC | MIPI_DCS_REV1 | MV_AXIS | REV_SCREEN | INVERT_GS;
+        _lcd_capable = AUTO_READINC | MIPI_DCS_REV1 | MV_AXIS | INVERT_SS | READ_24BITS;
         static const uint8_t NT35310_regValues[] PROGMEM = {        //
             0xED, 2, 0x01, 0xFE, //CMD2UNLOCK
         };
